@@ -1,4 +1,6 @@
-# Intro
+# SOC EDR Command:
+
+## Intro
 
 This is a fully cloud-hosted environment in Azure. For our EDR, we will be using LimaCharlie. It has a cross-platform EDR agent and also handles log shipping/ingestion as well as a threat detection engine. It also has a free tier for 2 systems, making it ideal for our environment.
 
