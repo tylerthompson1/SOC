@@ -57,7 +57,7 @@ Now we're going to configure LimaCharlie to also send the Sysmon event logs in a
     5. Click "Save Rule"
 3. LimaCharlie will now start shipping Sysmon logs which provide a wealth of EDR-like telemetry, some of which is redundant to LC's own telemetry, but Sysmon is still a very powerful visibility tool that runs well alongside any EDR agent.
     1. The other reason we are ingesting Sysmon logs is that the built-in Sigma rules we are about to enable largely depend on Sysmon logs as that is what most of them were written for.
-4. Let's turn on the [open source Sigma ruleset](https://github.com/SigmaHQ/sigma) to assist our efforts.
+4. Let's turn on the [open source Sigma ruleset]<br>(https://github.com/SigmaHQ/sigma) to assist our efforts.<br>
         1. Click "Add-ons" in the top right corner <br>
            ![Pasted image 20240612144720](https://github.com/tylerthompson1/SOC/assets/53204601/14db1bc5-dd25-4129-887c-7315f3535942)<br>
         2. Click "Extensions" on the left side
