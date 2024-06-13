@@ -1,4 +1,4 @@
-# SOC EDR Command:
+# SOC EDR Command
 
 ## Intro
 
