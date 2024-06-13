@@ -27,13 +27,10 @@ From there, we will create our first sensor.
 2. Select Windows
 3. Provide a description
 4. Click Create
-5. Select the Installation Key we just created
-6. 
-   ![installationkey](https://github.com/tylerthompson1/SOC/assets/53204601/d5ca091a-7075-4f83-a50c-82d33ffe5ddc)
-   
-8. We'll be using the x86-64 (.exe) sensor.
-9. 
- ![x86](https://github.com/tylerthompson1/SOC/assets/53204601/0948742a-4c6c-4b29-a5cc-d5f1db130d57)
+5. Select the Installation Key we just created<br>
+   ![installationkey](https://github.com/tylerthompson1/SOC/assets/53204601/d5ca091a-7075-4f83-a50c-82d33ffe5ddc)<br>
+6. We'll be using the x86-64 (.exe) sensor.<br>
+ ![x86](https://github.com/tylerthompson1/SOC/assets/53204601/0948742a-4c6c-4b29-a5cc-d5f1db130d57)<br>
 
 
 Our sensor is already in our Windows VM. So we will change to the directory where it has been placed.
