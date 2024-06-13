@@ -4,6 +4,15 @@
 
 This is a fully cloud-hosted environment in Azure. For our EDR, we will be using LimaCharlie. It has a cross-platform EDR agent and also handles log shipping/ingestion as well as a threat detection engine. It also has a free tier for 2 systems, making it ideal for our environment.
 
+## Objectives
+
+The primary objectives of the SOC EDR Command project are to:
+- Establish a Cloud-Hosted SOC: Utilize cloud infrastructure to deploy a scalable and efficient Security Operations Center.
+- Integrate and Utilize LimaCharlie: Leverage the capabilities of LimaCharlie for comprehensive endpoint detection and response, including log shipping, threat detection, and incident response.
+- Enhance Visibility with Sysmon: Implement Sysmon for advanced monitoring of system activities to enrich the data available for threat detection.
+- Leverage Open Source Sigma Rules: Utilize Sigma rules to automate the detection of malicious activities based on standardized and community-driven specifications.
+- Simulate Threats and Test Defenses: Conduct realistic attack simulations to test and refine the SOC’s defensive strategies and ensure readiness against potential threats.
+
 ## LimaCharlie
 
 First, we're going to create an account at LimaCharlie. After logging in, we will create an organization. Here are our organization details.
@@ -269,3 +278,7 @@ Normally this command would not be run in a healthy environment, meaning two thi
 7. The "action: task" section is responsible for killing the parent process with deny_tree for the `vssadmin delete shadows /all` command.
 8. Now if we try to delete the shadow volume again, we can see that our shell is forcibly exited from the Sliver Implant instance. <br>![Pasted image 20240612185138](https://github.com/tylerthompson1/SOC/assets/53204601/468852be-9ef0-4bf7-a588-2113d769c103)<br>
 9. And checking our detections tab confirms that the rule has been fired! <br>![Pasted image 20240612185238](https://github.com/tylerthompson1/SOC/assets/53204601/9cddc4f2-9dbd-4ee0-ba3e-e2e4d68b2652)<br>
+
+## Conclusion
+
+The configuration of LimaCharlie alongside Sysmon enriches the SOC's monitoring capabilities, ensuring detailed visibility across endpoint activities. The use of open-source Sigma rules further strengthens the system's ability to detect known threats automatically. By creating and testing detection and response strategies, the project exemplifies how organizations can defend against advanced threats in a cloud environment effectively.
